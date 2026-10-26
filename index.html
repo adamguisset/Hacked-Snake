@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-wrap">
+      <div class="hud">
+        <div>
+          <span class="label">Score</span>
+          <span id="score">0</span>
+        </div>
+        <div>
+          <span class="label">Level</span>
+          <span id="level">1</span>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="400" height="400" aria-label="Snake game board"></canvas>
+
+      <div id="message" class="message">
+        Use arrow keys to play. Press E for a +20 length boost.
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
